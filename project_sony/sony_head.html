@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>SONY CHINA</title>
+  <style>
+    *{margin:0;padding:0;}
+    .header1{
+      width:100%;height: 105px;
+      background-color: black;
+      position: relative;
+    }
+    .header1>a{
+      color: #ffffff;
+      text-decoration: none;
+      float: left;
+      margin:16px 0 0 160px;
+      font:bold 28px Microsoft Sans Serif;
+    }
+    .header1>ul{
+      margin:57px 0 0 140px;
+      position:absolute;
+    }
+    .header1>ul>li{
+      width: 103px;height: 48px;
+      color:#ebebef;
+      /* display: block; */
+      float: left;
+      text-align: center;
+      line-height: 48px;
+      list-style: none;
+      font-size: 14px;
+    }
+    .header1>ul>li+li{
+      margin-left: 20px;
+    }
+    .header1>ul>li:hover{
+        cursor: pointer;
+        background-color:#333;
+    }
+    .header1>.logo1{
+      width: 120px;
+      height: 16px;
+      background-image:url("img/logo1.png");
+      border-radius: 50px;
+      margin: 16px 0 0 900px;
+      position: absolute;
+    }
+    .header1>span{
+      color: #fff;
+      display: block;
+      margin:16px 0 0 1050px;
+      position: absolute;
+      font-size: 12px;
+    }
+    .header1>.research{
+      width: 200px;height: 37px;
+      border:2px solid #666;
+      background-color: #000000;
+      background: url("img/research.png") no-repeat right;
+      position: absolute;
+      margin:60px 0 0 658px;
+    }
+    .header1>.dropdown{
+      display: inline-block;
+      margin-top: 70px;
+      line-height: 30px;
+      padding: -20px 0;
+    }
+    .header1>.dropdown>.dropdown-content{
+      display: none;
+      background-color:#fff
+    }
+    .header1>.dropdown:hover>.dropdown-content{
+      display: block;
+      margin-top: 10px;
+    }
+    .header1>.dropdown>a{
+      text-decoration: none;
+      color:#ccc;
+    }
+    .header1>.dropdown>.dropdown-content>a{
+      text-decoration: none;
+      color: silver;
+    }
+  </style>
+</head>
+<body>
+  <div class="header1">
+    <a href="javascript:;">SONY</a>
+    <div class="logo1"></div>
+    <span>索尼中国</span>
+    <input class="research" type="text">
+    <div class="dropdown">
+      <a href="javascript:;">索尼产品</a> 
+      <div class="dropdown-content">
+        <a href="">智能手机</a> 
+        <a href="">耳机</a> 
+        <a href="">电视机</a> 
+        <a href="">数码相机</a> 
+        <a href="">电子纸</a> 
+        <a href="">MP4播放器</a> 
+      </div>
+    </div>
+  </div>
+</body>
+</html>
